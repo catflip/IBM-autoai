@@ -1,0 +1,19 @@
+service: functions
+useDotenv: true
+
+provider:
+  name: openwhisk
+
+functions:
+  autoai:
+    handler: handler.autoai
+    parameters:
+      api_key: ${env:api_key}
+    events:
+      - http: POST /autoai
+
+# extend the framework using plugins listed here:
+# https://github.com/serverless/plugins
+plugins:
+  - serverless-openwhisk
+  - serverless-dotenv-plugin

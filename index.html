@@ -305,65 +305,200 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Make an Appointment</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Check if you got early stage diabetes or no</h2>
+          <p>By checking if you got early stage diabetes or no, you can better prepare to change your lifestyle to prevent more damage to your body</p>
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <form  role="form" class="popo">
           <div class="row">
             <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
+              <p>Age</p>
+              <input type="number" name="name" class="form-control" id="age" placeholder="Input your age for example `20`" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              
             </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 form-group mt-3">
-              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="department" id="department" class="form-select">
-                <option value="">Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
+            <div class="col-md-4 form-group">
+              <p>Gender</p>
+              <select name="department" id="gender" class="form-select">
+                <option value="null" selected disabled>Select your gender</option>
+                <option value="null"></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
               </select>
-              <div class="validate"></div>
+              
             </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="doctor" id="doctor" class="form-select">
-                <option value="">Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
+            <div class="col-md-4 form-group">
+              <p>Polyuria</p>
+              <select name="department" id="polyuria" class="form-select">
+                <option value="null" selected disabled>have you got polyuria?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
               </select>
-              <div class="validate"></div>
+              
             </div>
-          </div>
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Make an Appointment</button></div>
+            <div class="col-md-4 form-group">
+              <p>Polydipsia</p>
+              <select name="department" id="polydipsia" class="form-select">
+                <option value="null" selected disabled>have you got polydipsia?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Sudden weight loss</p>
+              <select name="department" id="sudden_weight_loss" class="form-select">
+                <option value="null" selected disabled>have you recently experience sudden weight loss?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Weakness</p>
+              <select name="department" id="weakness" class="form-select">
+                <option value="null" selected disabled>have you recently experience weakness?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Polyphagia</p>
+              <select name="department" id="polyphagia" class="form-select">
+                <option value="null" selected disabled>have you got polyphagia?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Genital thrush</p>
+              <select name="department" id="genital_thrush" class="form-select">
+                <option value="null" selected disabled>have you got genital thrush?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Visual blurring</p>
+              <select name="department" id="visual_blurring" class="form-select">
+                <option value="null" selected disabled>have you got visual blurring?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Itching</p>
+              <select name="department" id="itching" class="form-select">
+                <option value="null" selected disabled>have you got itching?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Irritability</p>
+              <select name="department" id="irritability" class="form-select" placeholder="have you experience irritability?">
+                <option value="null" selected disabled>have you experience irritability?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Delayed healing</p>
+              <select name="department" id="delayed_healing" class="form-select">
+                <option value="null" selected disabled>have you experience delayed healing?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Partial paresis</p>
+              <select name="department" id="partial_paresis" class="form-select">
+                <option value="null" selected disabled>have you experience partial paresis?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>muscle stiffness</p>
+              <select name="department" id="muscle_stiffness" class="form-select">
+                <option value="null" selected disabled>have you experience muscle stiffness?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Alopecia</p>
+              <select name="department" id="alopecia" class="form-select">
+                <option value="null" selected disabled>have you got alopecia?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+            <div class="col-md-4 form-group">
+              <p>Obesity</p>
+              <select name="department" id="obesity" class="form-select">
+                <option value="null" selected  disabled>have you got obesity?</option>
+                <option value="null"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+              
+            </div>
+          <div class="text-center"><button type="submit" id="predict">Check Now</button></div>
         </form>
-
+      
+        
       </div>
+      
+      
+      <section class="services" id="diagnose-box" style="display: none;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 d-flex  justify-content-center mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="fas fa-dna"></i></div>
+                <h4><a href="">Diagnosed</a></h4>
+                <p id="diagnosed"></p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 d-flex justify-content-center mt-4">
+              <div class="icon-box">
+                <div class="icon"><i class="fas fa-dna"></i></div>
+                <h4><a href="">Probability</a></h4>
+                <p id="probability"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
     </section><!-- End Appointment Section -->
-
+    
+    
+    
     <!-- ======= Departments Section ======= -->
     <section id="departments" class="departments">
       <div class="container">
@@ -822,7 +957,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contact.php" method="post" role="form" class="popo">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -936,14 +1071,56 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/popo/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 <script>
- 
+ async function getPredictions(){
+  const req={
+    "age":Number(document.getElementById("age").value),
+  "gender":document.getElementById("gender").value,
+  "polyuria":document.getElementById("polyuria").value,
+  "polydipsia":document.getElementById("polydipsia").value,
+  "sudden_weight_loss":document.getElementById("sudden_weight_loss").value,
+  "weakness":document.getElementById("weakness").value,
+  "polyphagia":document.getElementById("polyphagia").value,
+  "genital_thrush":document.getElementById("genital_thrush").value,
+  "visual_blurring":document.getElementById("visual_blurring").value,
+  "itching":document.getElementById("itching").value,
+  "irritability":document.getElementById("irritability").value,
+  "delayed_healing":document.getElementById("delayed_healing").value,
+  "partial_paresis":document.getElementById("partial_paresis").value,
+  "muscle_stiffness":document.getElementById("muscle_stiffness").value,
+  "alopecia":document.getElementById("alopecia").value,
+  "obesity":document.getElementById("obesity").value
+}
+ const url="https://service.eu.apiconnect.ibmcloud.com/gws/apigateway/api/9c5ccd90800a3bc3be127de5ba340d693f440403b4ee125b7c6551c73e473b5e/autoai";
+const rawResponse = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(req)
+  });
+  const content = await rawResponse.json();
+   console.log(content)
+
+ }
+ const diagnoseBox=document.getElementById("diagnose-box")
+ document.getElementById("predict").addEventListener("click", async function(event){
+   this.disabled=true
+  event.preventDefault()
+  await getPredictions()
+  this.disabled=false
+  diagnoseBox.style.display="flex";
+  diagnoseBox.style.width="100%";
+  diagnoseBox.style.justifyContent="center";
+
+});
 </script>
 </body>
 

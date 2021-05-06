@@ -7,6 +7,10 @@ Early stage diabetes is sometimes hard to detect, using machine learning we can 
 
 <center><a href="https://www.youtube.com/watch?v=OJ8F52k2OW8"><img src="https://img.youtube.com/vi/OJ8F52k2OW8/0.jpg" /></a></center>
 
+# Article
+
+https://dev.to/spiritbro1/ibm-auto-ai-predict-early-stage-diabetes-part-1-2p5j
+
 # Website URL
 
 https://diabetes-bucket.s3-web.jp-tok.cloud-object-storage.appdomain.cloud

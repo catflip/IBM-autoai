@@ -1,6 +1,6 @@
 # Caution
 
-freelancer.com stole my money even though im runner up of ibm freelancer contest https://<url>/contest/IBM-Cloud-Data-Challenge-Outcome-Prediction-using-AutoAI-1913076-byentry-52333329 this is my complaint https://www.complaintsboard.com/freelancercom-b102094#c1283956
+freelancer.com stole my money even though im runner up of ibm freelancer contest https://web.archive.org/web/20210712034231/https://www.freelancer.com/contest/IBM-Cloud-Data-Challenge-Outcome-Prediction-using-AutoAI-1913076-byentry-52333329?w=f&ngsw-bypass= this is my complaint https://www.complaintsboard.com/freelancercom-b102094#c1283956 i urge you all to not using freelancer.com ever again
 
 <center><h1>Predict Early Stage Diabetes with IBM Auto AI</h1></center>
 
